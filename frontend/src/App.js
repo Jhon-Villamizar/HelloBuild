@@ -3,6 +3,8 @@ import './App.scss';
 import Dashboard from './components/dashboard/dashboard';
 import Signin from './components/singIn/signIn';
 import Signup from './components/singUp/signUp';
+import * as firebase from "firebase/app";
+import "firebase/auth";
 
 function App() {
 
