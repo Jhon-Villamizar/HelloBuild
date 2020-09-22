@@ -12,7 +12,6 @@ export default function SignUp(props) {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    console.log(data)
   },[data])
 
   const handlerSubmit = (evt) => {

@@ -3,14 +3,13 @@ import './App.scss';
 import Dashboard from './components/dashboard/dashboard';
 import Signin from './components/singIn/signIn';
 import Signup from './components/singUp/signUp';
-import * as firebase from "firebase/app";
-import "firebase/auth";
+
 
 function App() {
 
   let view;
-  const [login, setLogin] = useState(false);
-  const [dashboard, setDashboard] = useState(true);
+  const [login, setLogin] = useState(true);
+  const [dashboard, setDashboard] = useState(false);
   
   const loginHandler = () => {
     setLogin(!login);

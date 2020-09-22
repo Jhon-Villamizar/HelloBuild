@@ -1,0 +1,17 @@
+.content-img {
+  border-radius: 9999px;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 20px auto 0;
+  img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+  }
+}
+
+.repoList {
+  cursor: pointer;
+}
