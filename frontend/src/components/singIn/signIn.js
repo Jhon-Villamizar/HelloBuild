@@ -4,7 +4,6 @@ import React, {useState} from "react";
 const SignIn = (props) => {
 
   const {goDashboard, loginHandler} = props;
-
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 

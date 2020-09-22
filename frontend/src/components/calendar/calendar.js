@@ -21,7 +21,6 @@ gapi.load('client:auth2', () => {
 
 const MyCalendar = () => {
   const[userLoggedIn, setUserLoggedIn] = useState(localStorage.getItem('user'));
-  const[photoUrl, setphotoUrl] = useState('');
   const[title, setTitle] = useState('');
   const[start, setStart] = useState('');
   const[end, setEnd] = useState('');
